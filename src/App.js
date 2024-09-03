@@ -7,7 +7,7 @@ import MoviesGrid from "./components/MoviesGrid";
 import Watchlist from "./components/Watchlist";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-
+//This is a test
 function App() {
   const [movies, setMovies] = useState([]);
   const [watchlist, setWatchlist] = useState([]);
